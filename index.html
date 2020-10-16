@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <div class="image-modal">
+        <div class="modal-content">
+            <div class="times">
+                <img src="images/times.png">
+            </div>
+            <div class="image-content">
+                <img src="images/woman2.jpg">
+            </div>
+            <div class="prev">
+                <img src="images/prev.png">
+            </div>
+            <div class="next">
+                <img src="images/next.png">
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="content">
+            <nav class="navigation">
+                <h1>Image Gallery</h1>
+                <div class="filter">
+                    <p class="text">view by gender</p>
+                    <div class="inputs">
+                        <input type="radio" id="all" value="all" name="gender" checked>
+                        <label for="all">All</label>
+                        <input type="radio" id="male" value="man" name="gender">
+                        <label for="male">Men</label>
+                        <input type="radio" id="female" value="woman" name="gender">
+                        <label for="female">Women</label>
+                    </div>
+                </div>
+            </nav>
+            <div class="images">
+                <div class="images-wrapper"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="anime.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
