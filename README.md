@@ -11,3 +11,5 @@ This is a simple front-end web development project that entails a lightbox image
 ## Demo
 
 A demonstration of the application is displayed below in the gif. You can also check it out at [lightbox-gallery.netlify.app](https://lightbox-gallery.netlify.app)
+
+![](https://github.com/prince381/image-gallery/blob/master/img.gif)
